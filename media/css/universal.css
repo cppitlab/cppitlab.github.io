@@ -55,6 +55,14 @@
     transition-duration: 0.3s;
 }
 
+.navButton {
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
 .menu>hr {
     height: 3px;
     width: 30px;
