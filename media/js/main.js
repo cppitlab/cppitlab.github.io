@@ -1,3 +1,17 @@
+/*
+
+Author : Chauhan Pruthviraj
+
+Developer : Chauhan Pruthviraj.
+
+Email : cppitlab@protonmail.com
+
+Website : https://cppitlab.github.io/jscode/cppitlab.js
+
+Note : this Javascript Library Helps you Build website quickly
+
+*/
+
 export class cppitlab {
 
     createElement(elementName) {
