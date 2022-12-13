@@ -1,6 +1,6 @@
 let style = {
     headerStyle: {
-        height: "80px",
+        height: "50px",
         width: "100%",
         display: "flex",
         alignItems: "center",
@@ -16,7 +16,14 @@ let style = {
         alignItems: "center",
         justifyContent: "center",
     },
-    navStyle: {},
+    navStyle: {
+        minHeight: "100vh",
+        width: "0%",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        flexDirection: "column",
+    },
     mainStyle: {},
     articleStyle: {},
     asideStyle: {},
