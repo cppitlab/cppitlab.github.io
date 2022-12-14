@@ -31,10 +31,26 @@ let style = {
         backgroundColor: "blue",
         zIndex: "100",
     },
-    mainStyle: {},
+    mainStyle: {
+        minHeight: "100vh",
+        width: "100%",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "flex-start",
+        flexDirection: "column",
+    },
     articleStyle: {},
+    sectionStyle: {},
     asideStyle: {},
-    footerStyle: {},
+    footerStyle: {
+        height: "50px",
+        width: "100%",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        background: "linear-gradient(-45deg,blue,crimson)",
+        color:"white",
+    },
 };
 
 export { style };

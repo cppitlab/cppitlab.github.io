@@ -46,4 +46,31 @@ article.addAttribute("class", "article");
 article.addStyle(style.articleStyle);
 article.mount("main");
 
+// ========= Section Component =========
+
+export const section = new cppitlab;
+section.createElement("section");
+section.addAttribute("class", "section");
+section.addStyle(style.sectionStyle);
+section.mount("article");
+// ========== Aside Component =======
+
+export const aside = new cppitlab;
+aside.createElement("aside");
+aside.addAttribute("class", "aside");
+aside.addStyle(style.asideStyle);
+aside.mount("main");
+
+// =========== footer component =====
+
+export const currentYear = new Date().getFullYear();
+
+export const footer = new cppitlab;
+footer.createElement("footer");
+footer.addAttribute("class", "footer");
+footer.addStyle(style.footerStyle);
+footer.mount("body");
+footer.addData("<h3>&copy; cppitlab. " + currentYear + " </h3>")
+
+// =================================
 export { cppitlab, style };
