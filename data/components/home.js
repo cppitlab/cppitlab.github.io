@@ -10,13 +10,13 @@ header.addAttribute("class", "header");
 export const title = new cppitlab;
 title.createElement("h1");
 title.addStyle(style.titleStyle);
-title.addAttribute("title", "C++ It Lab");
-title.addData("C++ It Lab");
+title.addAttribute("title", "cppitlab");
+title.addData("C++");
 title.mount("header")
 
 export const menu = new cppitlab;
 menu.createElement("div");
-menu.addAttribute("class","menu");
+menu.addAttribute("class", "menu");
 menu.addStyle(style.menuStyle);
 menu.mount("header");
 menu.addData("<hr /> <hr /> <hr />")

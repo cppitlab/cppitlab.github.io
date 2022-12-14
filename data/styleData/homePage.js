@@ -5,7 +5,7 @@ let style = {
         display: "flex",
         alignItems: "center",
         justifyContent: "space-between",
-        background: "linear-gradient(-45deg,blue,crimson)"
+        background: "linear-gradient(-45deg,blue,crimson)",
     },
     titleStyle: {
         marginLeft: "10px",
@@ -15,6 +15,7 @@ let style = {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
+        flexDirection: "column",
     },
     navStyle: {
         minHeight: "100vh",

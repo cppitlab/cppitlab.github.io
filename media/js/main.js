@@ -30,7 +30,6 @@ export class cppitlab {
         if (data !== undefined && data !== null && typeof data == "object")
             this.style = data;
         for (let prop in data) {
-            console.log(prop)
             this.element.style[prop] = data[prop];
         }
     }
