@@ -88,4 +88,11 @@ footer.mount("body");
 footer.addData("<h3>&copy; cppitlab. " + currentYear + " </h3>")
 
 // =================================
-export { cppitlab, style };
+
+/*
+
+
+*/
+
+export const learncpp = new cppitlab;
+

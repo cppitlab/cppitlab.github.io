@@ -38,9 +38,6 @@ export class cppitlab {
         if (content !== null && content !== undefined && typeof content === "string")
             this.element.innerHTML = content;
     }
-    addIn(data) {
-        this.element.append(data);
-    }
     showInfo() {
         // this method will show information about element
         if (this.element !== undefined && this.element !== null) {
