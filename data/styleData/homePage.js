@@ -28,8 +28,9 @@ let style = {
         top: 0,
         left: 0,
         position: "absolute",
-        backgroundColor: "blue",
+        backgroundColor: "black",
         zIndex: "100",
+        transitionDuration: "0.2s",
     },
     mainStyle: {
         minHeight: "100vh",
@@ -49,7 +50,7 @@ let style = {
         alignItems: "center",
         justifyContent: "center",
         background: "linear-gradient(-45deg,blue,crimson)",
-        color:"white",
+        color: "white",
     },
 };
 

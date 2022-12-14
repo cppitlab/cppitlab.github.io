@@ -4,7 +4,7 @@ import * as pruthviraj from "../../media/js/tools.js"; // for open and close nav
 
 // ===========
 
-console.log("==>",pruthviraj)
+console.log("==>", pruthviraj)
 
 // ==================
 
@@ -27,7 +27,7 @@ menu.addAttribute("class", "menu");
 menu.addStyle(style.menuStyle);
 menu.mount("header");
 menu.addData("<hr /> <hr /> <hr />");
-menu.addEvent("click",pruthviraj.openNav);
+menu.addEvent("click", pruthviraj.openNav);
 
 
 // ============= Navigation menu Related Data =============
@@ -38,6 +38,13 @@ nav.addStyle(style.navStyle);
 nav.addAttribute("class", "nav");
 nav.mount("body");
 
+
+const closeButton = new cppitlab;
+closeButton.createElement("button");
+closeButton.addAttribute("class", "button");
+closeButton.mount("nav");
+closeButton.addEvent("click",pruthviraj.closeNav)
+closeButton.addData("Close");
 // =========== main component ==========
 
 export const main = new cppitlab;
