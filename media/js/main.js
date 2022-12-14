@@ -47,6 +47,11 @@ export class cppitlab {
 
         }
     }
+    addEvent(attribute, value) {
+        // this method helps to add event for component
+        if ((attribute !== null && attribute !== undefined) && (value !== null && value !== undefined))
+            this.element.addEventListener(attribute, value)
+    }
     mount(where) {
         /*
         this method tells javascript where to mount element. in this case you have to choose class name of parent element inside you want to 

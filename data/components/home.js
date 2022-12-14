@@ -1,5 +1,12 @@
 import { cppitlab } from "../../media/js/main.js";
 import { style } from "../styleData/homePage.js";
+import * as pruthviraj from "../../media/js/tools.js"; // for open and close navigation
+
+// ===========
+
+console.log("==>",pruthviraj)
+
+// ==================
 
 export const header = new cppitlab;
 header.createElement("header");
@@ -19,7 +26,9 @@ menu.createElement("div");
 menu.addAttribute("class", "menu");
 menu.addStyle(style.menuStyle);
 menu.mount("header");
-menu.addData("<hr /> <hr /> <hr />")
+menu.addData("<hr /> <hr /> <hr />");
+menu.addEvent("click",pruthviraj.openNav);
+
 
 // ============= Navigation menu Related Data =============
 
