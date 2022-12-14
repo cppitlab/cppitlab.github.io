@@ -38,6 +38,15 @@ nav.addStyle(style.navStyle);
 nav.addAttribute("class", "nav");
 nav.mount("body");
 
+const navData = "<div style='display:flex; align-items:center; justify-content:flex-start; flex-direction:column'>" +
+    "<p class='pbutton'>About</p>" +
+    "<p class='pbutton'>Blog</p>" +
+    "<p class='pbutton'>Computer</p>" +
+    "<p class='pbutton'>Download</p>" +
+    "<p class='pbutton'>More</p>" +
+
+    "</div>";
+nav.addData(navData);
 
 const closeButton = new cppitlab;
 closeButton.createElement("button");

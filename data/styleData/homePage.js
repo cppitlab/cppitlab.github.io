@@ -31,6 +31,7 @@ let style = {
         backgroundColor: "black",
         zIndex: "100",
         transitionDuration: "0.2s",
+        color: "white",
     },
     mainStyle: {
         minHeight: "100vh",

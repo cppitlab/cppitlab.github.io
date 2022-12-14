@@ -27,4 +27,18 @@
     background-color: crimson;
     color: white;
     border: none;
+    margin:5px;
+    border-radius: 10px;
+}
+
+.pbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100px;
+    margin: 2px;
+    border:2px solid crimson;
+    border-radius:10px;
+    color: white;
 }
