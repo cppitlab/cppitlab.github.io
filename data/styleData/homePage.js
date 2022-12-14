@@ -42,7 +42,12 @@ let style = {
     },
     articleStyle: {},
     sectionStyle: {},
-    asideStyle: {},
+    asideStyle: {
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        color: "white",
+    },
     footerStyle: {
         height: "50px",
         width: "100%",

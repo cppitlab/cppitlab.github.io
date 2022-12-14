@@ -43,7 +43,7 @@ const closeButton = new cppitlab;
 closeButton.createElement("button");
 closeButton.addAttribute("class", "button");
 closeButton.mount("nav");
-closeButton.addEvent("click",pruthviraj.closeNav)
+closeButton.addEvent("click", pruthviraj.closeNav)
 closeButton.addData("Close");
 // =========== main component ==========
 
@@ -77,6 +77,42 @@ aside.addAttribute("class", "aside");
 aside.addStyle(style.asideStyle);
 aside.mount("main");
 
+const asideData = "<div style='display:flex; align-items:center; justify-content:center; flex-wrap:wrap'>" +
+
+    "<div style='height:200px; width:200px; border:2px solid lime; display:flex; align-items:center; justify-content:flex-start; flex-direction:column'>" +
+    "<p>About</p>" +
+    "<p>Mission</p>" +
+    "<p>Pruthviraj</p>" +
+    "<p>Privacy</p>" +
+    "<p>Copyright</p>" +
+    "</div>" +
+
+    "<div style='height:200px; width:200px; border:2px solid lime; display:flex; align-items:center; justify-content:flex-start; flex-direction:column'>" +
+    "<p>Blog</p>" +
+    "<p>News</p>" +
+    "<p>Stories</p>" +
+    "<p>Guides</p>" +
+    "<p>Tips</p>" +
+    "</div>" +
+
+    "<div style='height:200px; width:200px; border:2px solid lime; display:flex; align-items:center; justify-content:flex-start; flex-direction:column'>" +
+    "<p>Religion</p>" +
+    "<p>Geography" +
+    "<p>Gallery</p>" +
+    "<p>Videos</p>" +
+    "<p>More</p>" +
+    "</div>" +
+
+    "<div style='height:200px; width:200px; border:2px solid lime; display:flex; align-items:center; justify-content:flex-start; flex-direction:column'>" +
+    "<p>Kooapp</p>" +
+    "<p>Facebook</p>" +
+    "<p>Twitter</p>" +
+    "<p>Instagram</p>" +
+    "<p>LinkedIn</p>" +
+    "</div>" +
+
+    "</div>";
+aside.addData(asideData)
 // =========== footer component =====
 
 export const currentYear = new Date().getFullYear();
