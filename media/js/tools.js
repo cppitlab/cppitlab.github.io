@@ -6,5 +6,4 @@ export const openNav = () => {
 
 export const closeNav = () => {
     document.querySelector(".nav").style.width = "0%";
-
 }

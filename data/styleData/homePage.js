@@ -47,7 +47,7 @@ let style = {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        color: "white",
+        color: "red",
     },
     footerStyle: {
         height: "50px",
