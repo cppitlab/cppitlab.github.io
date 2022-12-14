@@ -21,5 +21,29 @@ menu.addStyle(style.menuStyle);
 menu.mount("header");
 menu.addData("<hr /> <hr /> <hr />")
 
+// ============= Navigation menu Related Data =============
+
+export const nav = new cppitlab;
+nav.createElement("nav");
+nav.addStyle(style.navStyle);
+nav.addAttribute("class", "nav");
+nav.mount("body");
+
+// =========== main component ==========
+
+export const main = new cppitlab;
+main.createElement("main");
+main.addStyle(style.mainStyle);
+main.addAttribute("class", "main");
+main.mount("body");
+
+// ========== Article component ========
+
+export const article = new cppitlab;
+
+article.createElement("article");
+article.addAttribute("class", "article");
+article.addStyle(style.articleStyle);
+article.mount("main");
 
 export { cppitlab, style };
